@@ -1,0 +1,167 @@
+.section {
+    padding-top: 10px;
+}
+
+.section__header {
+    text-align: center;
+}
+
+
+.section__image {
+    float: left;
+    width: 25%;
+}
+
+.section__paragraph {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 50%;
+    line-height: 2;
+}
+
+.section__header--margin {
+    margin-top: 50px;
+}
+
+.section__container {
+    color: rgb(80, 227, 92);
+}
+
+.section__listItem {
+    list-style-type: square;
+    line-height: 1.5;
+}
+
+.section__strong {
+    color: black;
+}
+
+.section__paragraphBorder {
+
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    color: black;
+    background-color: #d2f0c9;
+    position: relative;
+    box-shadow: -5px 0px 27px 6px #4ED142;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.section__paragraphFile {
+    text-align: center;
+    margin: 50px auto 20px;
+}
+
+
+.section__linkHeader {
+    text-decoration: none;
+    color: coral;
+}
+
+.section__linkHeader:hover {
+    color: #4ED142;
+    border-bottom: 3px dotted;
+    outline: none;
+}
+
+.section__linkHeader:active {
+    color: black;
+}
+
+.section__file {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.section__file:hover {
+    color: rgb(228, 163, 139)
+}
+
+.section__picture {
+    width: 100%;
+    height: auto;
+}
+
+
+.section__headerName {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.section__imageMe {
+    width: 200px;
+    max-width: 100%;
+    float: left;
+    margin-right: 20px;
+}
+
+.section__containerBorder {
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #3CD863;
+    padding: 10px;
+}
+
+.section__listFont {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.section__header--color {
+    color: coral;
+}
+
+.section__header--colorChange {
+    color: brown;
+}
+
+.section__picturePlate {
+    width: 70%;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+}
+
+.section__pictureRemove {
+    display: none;
+}
+
+.section__paragraphButton {
+    text-align: center;
+}
+
+.section__buttonRemove {
+    background-color: #3CD863;
+    padding: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+.section__buttonQuestion {
+    background-color: coral;
+    padding: 15px;
+    border: none;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.section_paragraphAnswer {
+    text-align: center;
+    color: #3CD863;
+    text-shadow: 1px 1px 3px #3CD863;
+    font-size: 20px;
+}
+
+.section__buttonColorChange {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.section__buttonModeChange {
+    font-family: "Roboto", sans-serif;
+}

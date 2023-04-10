@@ -1,0 +1,11 @@
+.body {
+    font-family: "Roboto", sans-serif;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 95%;
+}
+
+.body--dark {
+    background-color: beige;
+}

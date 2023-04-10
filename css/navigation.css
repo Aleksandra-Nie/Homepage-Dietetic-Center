@@ -1,0 +1,31 @@
+.navigation__list {
+    list-style-type: none;
+    text-align: center;
+}
+
+.navigation__listItem {
+    display: inline-block;
+    padding: 10px;
+    margin: 20px 5px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: inset 50px -10px 40px 14px #3CD863,
+        inset 75px -45px 71px 11px #7856CE;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation__link:hover {
+    color: #746c6c;
+    outline: none;
+}
+
+.navigation__image {
+    width: 90%;
+    height: auto;
+    margin: 50px auto;
+    display: block;
+}

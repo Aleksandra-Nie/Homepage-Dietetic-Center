@@ -1,0 +1,61 @@
+.table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 50px auto;
+}
+
+.table__caption {
+    background-color: coral;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.table__cell {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+    vertical-align: top;
+}
+
+.table__cell:hover {
+    background-color: #79eb95;
+}
+
+.table__title {
+    font-weight: bold;
+}
+
+
+.table__image {
+    width: 200px;
+    margin-top: 10px;
+}
+
+.tableContact {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tableContact__cell {
+    border: none;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    width: 300px;
+}
+
+.tableContact__link {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.tableContact__link:hover {
+    color: #4ED142;
+}
+
+.table__list {
+    list-style-type: none;
+    text-align: left;
+}
