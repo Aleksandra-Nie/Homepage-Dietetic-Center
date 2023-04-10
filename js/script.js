@@ -1,42 +1,43 @@
-console.log("Buenos días!");
+{
+    const body = document.querySelector(".js-body");
 
-let buttonRemove = document.querySelector(".js-buttonRemove");
+    const pictureRemove = () => {
 
-let picturePlate = document.querySelector(".js-picturePlate");
+        const picturePlate = document.querySelector(".js-picturePlate");
+        picturePlate.classList.toggle("section__pictureRemove");
+    };
 
-let buttonQuestion = document.querySelector(".js-buttonQuestion");
+    const answerQuestion = () => {
 
-let paragraphAnswer = document.querySelector(".js-paragraphAnswer");
+        const paragraphAnswer = document.querySelector(".js-paragraphAnswer");
+        paragraphAnswer.innerHTML = "<i>Większe spożycie nienasyconych kwasów tłuszczów</i>";
+    };
 
-let buttonColorChange = document.querySelector(".js-buttonColorChange");
+    const bodyColorChange = () => {
+        body.classList.toggle("body--dark");
+    };
 
-let body = document.querySelector(".js-body");
+    const modeColorChange = () => {
 
-let buttonModeChange = document.querySelector(".js-buttonModeChange");
+        const themeName = document.querySelector(".js-themeName");
+        body.classList.toggle("body--dark");
+        themeName.innerText = body.classList.contains("body--dark") ? "biały" : "beżowy";
+    };
 
-let themeName = document.querySelector(".js-themeName");
+    const init = () => {
 
+        const buttonRemove = document.querySelector(".js-buttonRemove");
+        const buttonQuestion = document.querySelector(".js-buttonQuestion");
+        const buttonColorChange = document.querySelector(".js-buttonColorChange");
+        const buttonModeChange = document.querySelector(".js-buttonModeChange");
+        buttonRemove.addEventListener("click", pictureRemove);
+        buttonQuestion.addEventListener("click", answerQuestion);
+        buttonColorChange.addEventListener("click", bodyColorChange);
+        buttonModeChange.addEventListener("click", modeColorChange);
+    }
 
-
-buttonRemove.addEventListener("click", () => {
-    picturePlate.classList.toggle("section__pictureRemove");
-});
-
-
-buttonQuestion.addEventListener("click", () => {
-    paragraphAnswer.innerHTML = "<i>Większe spożycie nienasyconych kwasów tłuszczów</i>";
-});
-
-buttonColorChange.addEventListener("click", () => {
-    body.classList.toggle("body--dark");
-});
-
-
-buttonModeChange.addEventListener("click", () => {
-    body.classList.toggle("body--dark");
-    themeName.innerText = body.classList.contains("body--dark") ? "biały" : "beżowy";
-});
-
+    init();
+}
 
 
 
