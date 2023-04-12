@@ -4,7 +4,7 @@ This is the first project carried out as part of the Youcode course. The project
 ![Dietetic Center](images/Nutrition.jpg)
 
 ## Demo
-https://aleksandra-nie.github.io/hompage/
+https://aleksandra-nie.github.io/homepage/
 ## Navigation
 The website consists of several main sections:
 - About Us
