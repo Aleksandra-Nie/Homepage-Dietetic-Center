@@ -1,10 +1,10 @@
 # Homepage - Dietetic Center
 This is the first project carried out as part of the Youcode course. The project presents the website of a dietary center, whose activities are primarily aimed at improving the health and well-being of patients by providing them with a well-balanced diet tailored to their needs and lifestyle.
 
-![Dietetic Center](images/Nutrition.jpg)
+![Dietetic Center](images/Screenshot_page.png)
 
 ## Demo
-https://aleksandra-nie.github.io/hompage/
+https://aleksandra-nie.github.io/homepage/
 ## Navigation
 The website consists of several main sections:
 - About Us
